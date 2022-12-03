@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  color: #ffffff;
+}
+h1 {
+  margin: 0;
+}
+
+.navbar {
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+.navbar .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  font-family: "poppins";
+  font-weight: 600;
+  color: #3b3949;
+}
+.navbar span {
+  color: #ff5f26;
+}
+.notif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notif .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  margin-left: 10px;
+}
+.icon button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #ffffff;
+}
+.wrap-profile {
+  border: 1px solid #ccced2;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nickname {
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 500;
+  color: #293038;
+  margin-left: 14px;
+}
+.profile {
+  margin: 6px;
+  border-radius: 18px;
+  height: 36px;
+  width: 36px;
+}
+.wrap-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: #fff;
+  box-shadow: 0px 16px 90px rgba(19, 7, 52, 0.08);
+  border-radius: 12px;
+  width: 800px;
+  height: 672px;
+  padding: 40px 40px 27px 40px;
+  box-sizing: border-box;
+}
+.header-content h1 {
+  font-family: "poppins";
+  font-style: "normal";
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff5f26;
+}
+.header-brand h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #293038;
+}
+.header-brand p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #293038;
+}
+.header-content button {
+  width: 183px;
+  height: 48px;
+  background: #ff5f26;
+  color: #fff;
+  border-radius: 60px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-brand h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7a7f83;
+}
+.sub-brand .btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ff5f26;
+  border: 1px solid #ff5f26;
+  border-radius: 50px;
+}
